@@ -127,3 +127,12 @@ p {
   font-size: 0.8rem;
   padding: 0 0.5rem;
 }
+
+.fa-shopping-cart:before,
+.fa-list-alt:before,
+.fa-home:before,
+.fa-chevron-down:before,
+.fa-dragon:before {
+  padding-right: 10px;
+  padding-left: 10px;
+}
