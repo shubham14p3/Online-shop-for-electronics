@@ -39,6 +39,7 @@ p {
   color: white;
   margin: 0;
   padding: 0;
+  list-style-type:none;
 }
 
 .font-gotham-rounded-light {
@@ -99,4 +100,14 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.header-navlink {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 2rem;
+  font-family: "Helvetica-Neue-Light", sans-serif;
+  font-size: 0.8rem;
+  display: block;
 }
