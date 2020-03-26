@@ -111,3 +111,19 @@ p {
   font-size: 0.8rem;
   display: block;
 }
+
+.user-photo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #d35266;
+  margin: 0 0.25rem;
+}
+
+.user-name {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Helvetica-Neue-Light", sans-serif;
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+}
