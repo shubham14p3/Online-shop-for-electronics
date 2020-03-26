@@ -76,3 +76,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.header-nav-container {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
