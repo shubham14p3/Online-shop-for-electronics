@@ -1,80 +1,81 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-object,
-iframe,
+html {
+  font-family: "Gotham-Rounded-Light", sans-serif;
+  background-color: #f5f5f5;
+}
+
+body {
+  min-width: 400px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 0;
+}
+
+header {
+  grid-row: 1;
+}
+
+main {
+  grid-row: 2;
+}
+
+footer {
+  grid-row: 3;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
-blockquote,
-ol,
 ul,
 li,
-form,
-legend,
 label,
-table,
-header,
-footer,
-nav,
-section,
-figure {
+span,
+a,
+p {
+  color: white;
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+.font-gotham-rounded-light {
+  font-family: "Gotham-Rounded-Light", sans-serif;
 }
 
-body {
-  line-height: 1;
+.font-gotham-bold {
+  font-family: "Gotham-Bold", sans-serif;
 }
 
-ol,
-ul {
-  list-style: none;
+.font-helvetica-neue-light {
+  font-family: "Helvetica-Neue-Light", sans-serif;
 }
 
-blockquote,
-q {
-  quotes: none;
+.font-helvetica-neue-medium {
+  font-family: "Helvetica-Neue-Medium", sans-serif;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
+.font-helvetica-neue-bold {
+  font-family: "Helvetica-Neue-Bold", sans-serif;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.button-search > .btn-icon,
+.menu-wrapper {
+  display: none;
+}
+
+.menu-wrapper > a {
+  text-decoration: none;
+}
+
+.border-palered {
+  border-bottom: 0.07rem solid #d35266;
+}
+
+.border-gray {
+  border-bottom: 0.07rem solid #ccc;
 }
 
 .header-nav-container {
@@ -83,5 +84,19 @@ table {
   flex-direction: row;
   height: 3rem;
   justify-content: space-around;
+  align-items: center;
+}
+
+.flex-row,
+.social-networks,
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-box,
+.header-navbar {
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
