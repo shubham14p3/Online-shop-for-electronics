@@ -1,3 +1,58 @@
+@font-face {
+	font-family: "Gotham-Bold";
+	src:
+	  url("../fonts/Gotham-Bold.eot"),
+	  url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+	  url("../fonts/Gotham-Bold.ttf") format("truetype"),
+	  url("../fonts/Gotham-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: "Gotham-Rounded-Light";
+	src:
+	  url("../fonts/Gotham-Rounded-Light.eot"),
+	  url("../fonts/Gotham-Rounded-Light.eot?#iefix") format("embedded-opentype"),
+	  url("../fonts/Gotham-Rounded-Light.ttf") format("truetype"),
+	  url("../fonts/Gotham-Rounded-Light.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: "Helvetica-Neue-Light";
+	src:
+	  url("../fonts/Helvetica-Neue-Light.eot"),
+	  url("../fonts/Helvetica-Neue-Light.eot?#iefix") format("embedded-opentype"),
+	  url("../fonts/Helvetica-Neue-Light.ttf") format("truetype"),
+	  url("../fonts/Helvetica-Neue-Light.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: "Helvetica-Neue-Medium";
+	src:
+	  url("../fonts/Helvetica-Neue-Medium.eot"),
+	  url("../fonts/Helvetica-Neue-Medium.eot?#iefix") format("embedded-opentype"),
+	  url("../fonts/Helvetica-Neue-Medium.ttf") format("truetype"),
+	  url("../fonts/Helvetica-Neue-Medium.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: "Helvetica-Neue-Bold";
+	src:
+	  url("../fonts/Helvetica-Neue-Bold.eot"),
+	  url("../fonts/Helvetica-Neue-Bold.eot?#iefix") format("embedded-opentype"),
+	  url("../fonts/Helvetica-Neue-Bold.ttf") format("truetype"),
+	  url("../fonts/Helvetica-Neue-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  
 html {
   font-family: "Gotham-Rounded-Light", sans-serif;
   background-color: #f5f5f5;
