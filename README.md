@@ -1,63 +1,80 @@
-# Project Name
+# Online-shop-for-electronics (Capstone Project)
 
-> One paragraph statement about the project.
+Title :- N.I.S.E. COMP.
 
-![screenshot](./app_screenshot.png)
+The project is to build for the HTML & CSS Capstone Project is based on an online shop for electronics. But I have  personalised the content, i.e., instead of a shop of electronics I have created an studying website "N.I.S.E. Comp". It is an website where contents can be bought through digital means, and knowledge can be shared digitally.
+
+#Homepage
+
+![screenshot](./Homepage1.PNG)
+
+#Category
+
+![screenshot](./HomepageCategory1.PNG)
+
+#Footer
+
+![screenshot](./footer1.PNG)
+
+#SearchPage
+
+![screenshot](./search.PNG)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- ATOM,
+- HTML,
+- CSS
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://shubham14p3.github.io/Online-shop-for-electronics/)
 
 
-## Getting Started
+## Description
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+The minimum requirements:
+- the main page (search page), with a link to the results page
+- the search results page
 
+Each of these pages have 2 different version for screen sizes:
+- Mobile: up to 768px
+- Tablet & Desktop: from 768px
+
+Guidelines that were followed for the given design, including:
+- Colors
+- Typographies: font face, size and weight
+- Layout: composition and space between elements, for the 2 given screen sizes
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+git clone https://github.com/shubham14p3/Online-shop-for-electronics.git
 
-### Setup
+## General Page Structure
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+The overall page contains the following sections:
+- Navbar
+- Key Columns: columns that organize information with category responding to specific media sizes.
+- Different Products for every category
+- Featured Slideshow
+- Footer
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Shubham Raj**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@shubham14p3](https://github.com/shubham14p3)
+- Linkedin: [shubham14p3](https://linkedin.com/shubham14p3)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/shubham14p3/Online-shop-for-electronics/issues/).
 
 ## Show your support
 
@@ -65,9 +82,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- @Microverse
+- My family
 
 ## 📝 License
 

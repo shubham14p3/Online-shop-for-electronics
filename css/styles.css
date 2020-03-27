@@ -1,4 +1,57 @@
-@import "fonts.css";
+@font-face {
+  font-family: "Gotham-Bold";
+  src:
+    url("../fonts/Gotham-Bold.eot"),
+    url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gotham-Bold.ttf") format("truetype"),
+    url("../fonts/Gotham-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham-Rounded-Light";
+  src:
+    url("../fonts/Gotham-Rounded-Light.eot"),
+    url("../fonts/Gotham-Rounded-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Gotham-Rounded-Light.ttf") format("truetype"),
+    url("../fonts/Gotham-Rounded-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Light";
+  src:
+    url("../fonts/Helvetica-Neue-Light.eot"),
+    url("../fonts/Helvetica-Neue-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Helvetica-Neue-Light.ttf") format("truetype"),
+    url("../fonts/Helvetica-Neue-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Medium";
+  src:
+    url("../fonts/Helvetica-Neue-Medium.eot"),
+    url("../fonts/Helvetica-Neue-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Helvetica-Neue-Medium.ttf") format("truetype"),
+    url("../fonts/Helvetica-Neue-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Bold";
+  src:
+    url("../fonts/Helvetica-Neue-Bold.eot"),
+    url("../fonts/Helvetica-Neue-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Helvetica-Neue-Bold.ttf") format("truetype"),
+    url("../fonts/Helvetica-Neue-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   font-family: "Gotham-Rounded-Light", sans-serif;
@@ -63,12 +116,12 @@ p {
   font-family: "Helvetica-Neue-Bold", sans-serif;
 }
 
-.button-search > .btn-icon,
+.button-search>.btn-icon,
 .menu-wrapper {
   display: none;
 }
 
-.menu-wrapper > a {
+.menu-wrapper>a {
   text-decoration: none;
 }
 
@@ -298,13 +351,13 @@ p {
   align-content: center;
 }
 
-.btn-hot-product-move-left > button,
-.btn-hot-product-move-right > button {
+.btn-hot-product-move-left>button,
+.btn-hot-product-move-right>button {
   background-color: transparent;
   border: none;
 }
 
-.btn-move-image > i {
+.btn-move-image>i {
   background-color: #383838;
   padding: 0.5rem;
   color: #d35266;
@@ -351,18 +404,18 @@ p {
   margin-top: 0.35rem;
 }
 
-.filter-box > h4 {
+.filter-box>h4 {
   border-bottom: 1px solid #ccc;
   font-family: "Gotham-Bold", sans-serif;
   font-size: 0.85rem;
   padding-bottom: 0.25rem;
 }
 
-.filter-box > ul {
+.filter-box>ul {
   padding-bottom: 0.25rem;
 }
 
-.filter-box > ul > li {
+.filter-box>ul>li {
   padding: 0.25rem 0;
 }
 
@@ -404,7 +457,7 @@ p {
   align-items: center;
 }
 
-.header-logo > i {
+.header-logo>i {
   font-size: 2rem;
   color: #d35266;
 }
@@ -513,7 +566,7 @@ p {
   flex-direction: row;
 }
 
-.text-footer > select {
+.text-footer>select {
   width: 50%;
   border-radius: 2px;
   border: 1px solid rgb(212, 212, 212);
@@ -524,14 +577,14 @@ p {
   height: 1.5rem;
 }
 
-.text-footer > label {
+.text-footer>label {
   width: 40%;
   text-align: right;
   margin-right: 1rem;
 }
 
-.footer-navigation-box > .t1-palered,
-.footer-categories-box > .t1-palered {
+.footer-navigation-box>.t1-palered,
+.footer-categories-box>.t1-palered {
   padding-bottom: 0.5rem;
 }
 
@@ -565,7 +618,7 @@ p {
   line-height: 1.5;
 }
 
-.footer-copyright-box > h6 {
+.footer-copyright-box>h6 {
   text-align: center;
 }
 
@@ -587,7 +640,7 @@ p {
   padding: 1rem;
 }
 
-.footer-business-description > p {
+.footer-business-description>p {
   text-align: justify;
   font-family: "Helvetica-Neue-Light", sans-serif;
   font-size: 0.85rem;
@@ -595,7 +648,7 @@ p {
   padding: 1rem 0;
 }
 
-.footer-business-description > h2 {
+.footer-business-description>h2 {
   text-align: center;
   font-size: 1.5rem;
 }
@@ -608,7 +661,7 @@ p {
   flex-direction: column;
 }
 
-.social-networks > a {
+.social-networks>a {
   margin-left: 1rem;
 }
 
@@ -631,7 +684,7 @@ p {
   text-decoration: none;
 }
 
-.button-search > .btn-text {
+.button-search>.btn-text {
   display: block;
 }
 
@@ -717,8 +770,8 @@ p {
     display: none;
   }
 
-  .button-search > .btn-icon,
-  .button-search > .btn-text {
+  .button-search>.btn-icon,
+  .button-search>.btn-text {
     display: block;
   }
 
@@ -751,13 +804,13 @@ p {
     flex-direction: column;
   }
 
-  .text-footer > label {
+  .text-footer>label {
     margin-left: 0.75rem;
     width: 100%;
     text-align: left;
   }
 
-  .text-footer > select {
+  .text-footer>select {
     width: 100%;
     text-align: left;
   }
@@ -827,11 +880,11 @@ p {
     margin: 0.5rem 0.25rem 0 0;
   }
 
-  .button-search > .btn-icon {
+  .button-search>.btn-icon {
     display: flex;
   }
 
-  .button-search > .btn-text {
+  .button-search>.btn-text {
     display: none;
   }
 
@@ -865,8 +918,7 @@ p {
     justify-content: space-around;
   }
 
-  .text-footer > label {
+  .text-footer>label {
     text-align: left;
   }
 }
-
