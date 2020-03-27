@@ -191,20 +191,132 @@ p {
   padding-right: 10px;
   padding-left: 10px;
 }
-
-.footer-copyright-box {
-  grid-row: 2;
-  grid-column: 1 / span 4;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  border-top: 1px solid #888;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.footer-copyright-box > h6 {
-  text-align: center;
-}
+.text-footer {
+	margin: 0.5rem 0;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+  }
+  
+  .text-footer > select {
+	width: 50%;
+	border-radius: 2px;
+	border: 1px solid rgb(212, 212, 212);
+	color: #888;
+	line-height: 1.5;
+	font-size: 0.75rem;
+	text-align: center;
+	height: 1.5rem;
+  }
+  
+  .text-footer > label {
+	width: 40%;
+	text-align: right;
+	margin-right: 1rem;
+  }
+  
+  .footer-navigation-box > .t1-palered,
+  .footer-categories-box > .t1-palered {
+	padding-bottom: 0.5rem;
+  }
+  
+  .footer-navbar {
+	padding: 0.5rem 0;
+  }
+  
+  .footer-navlink {
+	text-decoration: none;
+	font-family: "Helvetica-Neue-Medium", sans-serif;
+	font-size: 0.85rem;
+	line-height: 1.25rem;
+  }
+  
+  .footer-container {
+	display: grid;
+	padding: 1rem 3rem;
+	grid-template-columns: 3fr 2fr 1fr 2fr;
+  }
+  
+  .footer-copyright-box {
+	grid-row: 2;
+	grid-column: 1 / span 4;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	border-top: 1px solid #888;
+	font-size: 1rem;
+	line-height: 1.5;
+  }
+  
+  .footer-copyright-box > h6 {
+	text-align: center;
+  }
+  
+  .footer-navigation-box {
+	grid-row: 1;
+	grid-column: 3;
+	padding: 1rem;
+  }
+  
+  .footer-categories-box {
+	grid-row: 1;
+	grid-column: 2;
+	padding: 1rem;
+  }
+  
+  .footer-business-description {
+	grid-row: 1;
+	grid-column: 1;
+	padding: 1rem;
+  }
+  
+  .footer-business-description > p {
+	text-align: justify;
+	font-family: "Helvetica-Neue-Light", sans-serif;
+	font-size: 0.85rem;
+	line-height: 1.5;
+	padding: 1rem 0;
+  }
+  
+  .footer-business-description > h2 {
+	text-align: center;
+	font-size: 1.5rem;
+  }
+  
+  .footer-config-box {
+	grid-row: 1;
+	grid-column: 4;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .social-networks > a {
+	margin-left: 1rem;
+  }
+  
+  .search-banner {
+	background-color: #d35266;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .button-search {
+	margin: 0 0.075rem;
+	padding: 0 2rem;
+	border: none;
+	border-radius: 2px;
+	display: flex;
+	height: 2.5rem;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+  }
+  
+  .button-search > .btn-text {
+	display: block;
+  }
+  
