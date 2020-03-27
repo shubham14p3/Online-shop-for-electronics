@@ -434,6 +434,15 @@ p {
   color: #d35266;
 }
 
+.fa-shopping-cart:before,
+.fa-list-alt:before,
+.fa-home:before,
+.fa-chevron-down:before,
+.fa-dragon:before {
+  padding-right: 5px;
+  padding-left: 2px;
+}
+
 .btn {
   padding: 0.5rem;
   margin: 0.25rem;
@@ -860,3 +869,4 @@ p {
     text-align: left;
   }
 }
+
