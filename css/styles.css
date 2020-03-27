@@ -150,6 +150,17 @@ p {
   flex-direction: row;
 }
 
+.button-search > .btn-icon,
+.menu-wrapper {
+  display: none;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+
 .user-box,
 .header-navbar {
   display: flex;
@@ -298,8 +309,8 @@ p {
   }
   
   .search-banner {
-	background-color: #d35266;
-	color: #fff;
+	background-color:lightgreen;
+	color: darkgreen;
 	display: flex;
 	flex-direction: column;
   }
