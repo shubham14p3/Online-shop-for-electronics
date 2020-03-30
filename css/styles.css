@@ -513,7 +513,7 @@ p {
   margin-left: 0;
 }
 
-.product-detail > h3{
+.product-detail > h3 {
   padding-bottom: 10px;
 }
 
@@ -523,7 +523,7 @@ p {
   border: 1px solid #ccc;
 }
 
-.btn-white:hover{
+.btn-white: hover {
   color: #d35266;	
 }
 
