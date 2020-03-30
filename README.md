@@ -6,19 +6,19 @@ The project is to build for the HTML & CSS Capstone Project is based on an onlin
 
 #Homepage
 
-![screenshot](./Homepage1.PNG)
+![screenshot](./images/Homepage1.PNG)
 
 #Category
 
-![screenshot](./HomepageCategory1.PNG)
+![screenshot](./images/HomepageCategory1.PNG)
 
 #Footer
 
-![screenshot](./footer1.PNG)
+![screenshot](./images/footer1.PNG)
 
 #SearchPage
 
-![screenshot](./search.PNG)
+![screenshot](./images/search.PNG)
 
 Additional description about the project and its features.
 
