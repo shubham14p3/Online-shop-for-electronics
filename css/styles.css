@@ -487,6 +487,7 @@ p {
   color: #d35266;
 }
 
+.fa-envelope::before,
 .fa-shopping-cart::before,
 .fa-list-alt::before,
 .fa-home::before,
@@ -509,12 +510,21 @@ p {
 .btn-palered {
   background-color: #d35266;
   color: #fff;
+  margin-left: 0;
+}
+
+.product-detail > h3{
+  padding-bottom: 10px;
 }
 
 .btn-white {
   background-color: #fff;
   color: #888;
   border: 1px solid #ccc;
+}
+
+.btn-white:hover{
+  color: #d35266;	
 }
 
 .btn-gray {
