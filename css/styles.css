@@ -698,6 +698,15 @@ p {
   display: block;
 }
 
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  background-color: #ff6d39;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;;	
+}
+
 @media (max-width: 768px) {
   .p-sm-1rem {
     padding: 1rem;
