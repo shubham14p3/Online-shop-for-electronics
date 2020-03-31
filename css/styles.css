@@ -704,7 +704,7 @@ p {
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  cursor: pointer;;	
+  cursor: pointer;	
 }
 
 @media (max-width: 768px) {
