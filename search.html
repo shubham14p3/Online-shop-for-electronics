@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>N.I.S.E. COMP.</title>
+  <script src="https://kit.fontawesome.com/51934344ec.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="images/png" href="images/favricon.png" />
+</head>
+
+<body>
+
+    <header>
+      <nav class="header-nav-container">
+        <div class="flex-row">
+          <a href="index.html" class="header-logo"><i class="fas fa-dragon">N.I.S.E. COMP.</i></a>
+          <ul class="header-navbar list-style-type-none">
+            <li>
+              <a href="index.html" class="header-navlink active">
+                <i class="fas fa-home">Home</i>
+              </a>
+            </li>
+            <li>
+              <a href="course.html" class="header-navlink">
+                <i class="fas fa-list-alt">Course</i>
+              </a>
+            </li>
+            <li>
+              <a href="course.html" class="header-navlink">
+                <i class="fas fa-shopping-cart">Purchase List</i>
+              </a>
+            </li>
+            <li><a href="#" class="header-navlink btn btn-palered">Post an Ad</a></li>
+          </ul>
+        </div>
+        <div class="user-box">
+          <a href="#"><i class="fas fa-envelope">Shubham Raj</i></a>
+          <a href="#" class="user-name"><i class="fas fa-chevron-down"></i></a>
+          <img src="images/profile.jpg" alt="user photo" class="user-photo">
+        </div>
+        <div class="menu-wrapper">
+          <a href="#"><i class="icon fas fa-bars"></i></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <form id="formSearch" class="search-banner p-3rem align-items-center">
+        <h1 class="banner-title fs-3rem">N.I.S.E. COMP.</h1>
+        <p class="banner-description mb-3rem">Studing made simple. Read, ask & solve as much you want.</p>
+        <div class="search-container">
+          <select id="dropSearchCategory" class="input-search">
+            <option value="0">Categories</option>
+            <option value="1">School</option>
+            <option value="2">Colleges</option>
+            <option value="3">Crash Courses</option>
+            <option value="4">Photoshop</option>
+            <option value="5">Coding</option>
+            <option value="6">Personal Care</option>
+            <option value="7">UI Designing0</option>
+            <option value="8">Apptitude</option>
+            <option value="9">Interview Prep</option>
+            <option value="10">Resume Building</option>
+            <option value="11">Kinder garden</option>
+            <option value="12">React</option>
+            <option value="13">Data Science</option>
+            <option value="14">Data Analyst</option>
+          </select>
+          <input type="text" class="input-search" placeholder="What are you looking for?">
+          <input type="text" class="input-search" placeholder="Location">
+          <a href="search.html" class="button-search btn-gray">
+            <span class="btn-icon"><i class="fas fa-search"></i></span><span class="btn-text">Search</span>
+          </a>
+        </div>
+      </form>
+      <div class="results-container">
+        <aside class="results-filters pb-3rem pl-3rem pr-3rem pt-1rem p-sm-1rem">
+          <div class="filter-box mb-1rem">
+            <ul class="flex-row flex-sm-column list-style-type-none">
+              <li class="flex-row align-items-center mr-2rem">
+                <input class="search-check-filter" type="checkbox" id="chkNew">
+                <label class="search-label-filter" for="chkNew">Live</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkUsed">
+                <label class="search-label-filter" for="chkUsed">Offline</label>
+              </li>
+            </ul>
+          </div>
+          <section class="filter-box mb-1rem">
+            <h4>Category</h4>
+            <ul class="flex-column list-style-type-none">
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O1">
+                <label class="search-label-filter" for="chkF1O1">School</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O2">
+                <label class="search-label-filter" for="chkF1O2">Colleges</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O3">
+                <label class="search-label-filter" for="chkF1O3">Crash Courses</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O4">
+                <label class="search-label-filter" for="chkF1O3">Photoshop</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O5">
+                <label class="search-label-filter" for="chkF1O3">Coding</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O6">
+                <label class="search-label-filter" for="chkF1O3">Perosnal Care</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O7">
+                <label class="search-label-filter" for="chkF1O3">UI Designing</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O8">
+                <label class="search-label-filter" for="chkF1O3">Apptitude</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF1O9">
+                <label class="search-label-filter" for="chkF1O3">Resume Building</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF110">
+                <label class="search-label-filter" for="chkF1O3">Kinder Garden</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF111">
+                <label class="search-label-filter" for="chkF1O3">React</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF112">
+                <label class="search-label-filter" for="chkF1O3">Data Science</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF113">
+                <label class="search-label-filter" for="chkF1O3">Data Analyst</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF114">
+                <label class="search-label-filter" for="chkF1O3">Interview Prep</label>
+              </li>
+
+            </ul>
+          </section>
+
+          <section class="filter-box mb-1rem">
+            <h4>Sub Category</h4>
+            <ul class="flex-column list-style-type-none">
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF2O1">
+                <label class="search-label-filter" for="chkF2O1">Beginner</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF2O2">
+                <label class="search-label-filter" for="chkF2O2">Professional</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF2O3">
+                <label class="search-label-filter" for="chkF2O3">Standard</label>
+              </li>
+            </ul>
+          </section>
+
+          <section class="filter-box mb-1rem">
+            <h4>Price Tag</h4>
+            <ul class="flex-column list-style-type-none">
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF3O1">
+                <label class="search-label-filter" for="chkF3O1">Below 5000</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF3O2">
+                <label class="search-label-filter" for="chkF3O2">5000-15000</label>
+              </li>
+              <li class="flex-row align-items-center">
+                <input class="search-check-filter" type="checkbox" id="chkF3O3">
+                <label class="search-label-filter" for="chkF3O3">15000- more </label>
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <section class="results-list">
+          <div class="results-message">
+            <span class="font-gotham-bold">138</span> Results for <span class="font-gotham-bold">&ldquo;Courses&rdquo;</span> at <span class="font-gotham-bold">India</span> in Category <span class="font-gotham-bold">Live</span>
+          </div>
+          <div class="result-box">
+            <div class="flex-row justify-content-center">
+              <div class="image-container">
+                <img src="images/ds1.jpg" alt="Data Science" class="list-product-image">
+                <span class="btn-move-image flex-row">
+                  <i class="fas fa-chevron-left"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="product-detail flex-column">
+              <h3 class="d-product-name font-gotham-bold pt-1rem">Data Science</h3>
+              <span class="d-product-status font-gotham-bold">New</span>
+              <p class="d-product-description">Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data. Data science is
+                related to data mining and big data.</p>
+              <span class="d-product-place"><span class="font-gotham-bold">Location:</span> India
+              </span>
+              <div class="flex-row flex-wrap align-items-center justify-content-between">
+                <span>2020-03-28</span>
+                <a href="#" class="btn btn-palered">INR ₹ 9500.00 <i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="result-box background-white">
+            <div class="flex-row justify-content-center">
+              <div class="image-container">
+                <img src="images/microverse.jpg" alt="Microverse" class="list-product-image">
+                <span class="btn-move-image flex-row">
+                  <i class="fas fa-chevron-left"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="product-detail flex-column">
+              <h3 class="d-product-name font-gotham-bold pt-1rem">Microverse Online Course</h3>
+              <span class="d-product-status font-gotham-bold">Trending</span>
+              <p class="d-product-description">Your Global Career Starts Here. From Anywhere. Become a remote software developer, no matter where you're from. Learn with Microverse and
+                connect to life-changing opportunities.Don’t pay anything until you get a job!</p>
+              <span class="d-product-place"><span class="font-gotham-bold">Location:</span> Global Remote Develpoment</span>
+              <div class="flex-row flex-wrap align-items-center justify-content-between">
+                <span>2020-03-28</span>
+                <div class="flex-row flex-wrap">
+                  <a href="#" class="btn btn-palered">Give a Call</a>
+                  <a href="#" class="btn btn-palered">INR ₹ 00.00 (Up front)<i class="fas fa-shopping-cart"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="result-box">
+            <div class="flex-row justify-content-center">
+              <div class="image-container">
+                <img src="images/ReactCover.jpg" alt="React" class="list-product-image">
+                <span class="btn-move-image flex-row">
+                  <i class="fas fa-chevron-left"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="product-detail flex-column">
+              <h3 class="d-product-name font-gotham-bold pt-1rem">React</h3>
+              <span class="d-product-status font-gotham-bold">Trending</span>
+              <p class="d-product-description">React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of
+                single-page or mobile applications.</p>
+              <span class="d-product-place"><span class="font-gotham-bold">Location:</span> India
+              </span>
+              <div class="flex-row flex-wrap align-items-center justify-content-between">
+                <span>2020-03-28</span>
+                <a href="#" class="btn btn-palered">INR ₹ 7500.00 <i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="result-box">
+            <div class="flex-row justify-content-center">
+              <div class="image-container">
+                <img src="images/download43.jpg" alt="Ruby" class="list-product-image">
+                <span class="btn-move-image flex-row">
+                  <i class="fas fa-chevron-left"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="product-detail flex-column">
+              <h3 class="d-product-name font-gotham-bold pt-1rem">Ruby Beginner</h3>
+              <span class="d-product-status font-gotham-bold">New</span>
+              <p class="d-product-description">Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. Ruby is dynamically typed and uses garbage
+                collection.</p>
+              <span class="d-product-place"><span class="font-gotham-bold">Location:</span> India
+              </span>
+              <div class="flex-row flex-wrap align-items-center justify-content-between">
+                <span>2020-03-28</span>
+                <a href="#" class="btn btn-palered">INR ₹ 5900.00 <i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="result-box">
+            <div class="flex-row justify-content-center">
+              <div class="image-container">
+                <img src="images/PS2.png" alt="photoshop" class="list-product-image">
+                <span class="btn-move-image flex-row">
+                  <i class="fas fa-chevron-left"></i>
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+            <div class="product-detail flex-column">
+              <h3 class="d-product-name font-gotham-bold pt-1rem">Photshop</h3>
+              <span class="d-product-status font-gotham-bold">Trending</span>
+              <p class="d-product-description">Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become
+                the industry standard not only in raster graphics editing, but in digital art as a whole. </p>
+              <span class="d-product-place"><span class="font-gotham-bold">Location:</span> India
+              </span>
+              <div class="flex-row flex-wrap align-items-center justify-content-between">
+                <span>2020-03-28</span>
+                <a href="#" class="btn btn-palered">INR ₹ 15000.00 <i class="fas fa-shopping-cart"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-row flex-wrap justify-content-center mb-1rem">
+            <a href="#" class="btn btn-palered">1</a>
+            <a href="#" class="btn btn-white">2</a>
+            <a href="#" class="btn btn-white">3</a>
+            <a href="#" class="btn btn-white">4</a>
+            <a href="#" class="btn btn-white">5</a>
+            <a href="#" class="btn btn-white">...</a>
+          </div>
+        </section>
+      </div>
+
+    </main>
+    <footer class="background-white">
+      <div class="footer-container">
+        <section class="footer-business-description">
+          <h2>N.I.S.E. COMP.</h2>
+          <p>Creating new ways for learning. NISE COMP. gives you an solid foundation for perople to understand learn. We offer various types of course. We have included study matterials from kindergarden till an professional coder.</p>
+        </section>
+
+        <section class="footer-categories-box">
+          <h3 class="t1-palered border-palered">Categories</h3>
+          <ul class="footer-navbar two-column-list list-style-type-none">
+            <li><a href="#" class="footer-navlink">School</a></li>
+            <li><a href="#" class="footer-navlink">Colleges</a></li>
+            <li><a href="#" class="footer-navlink">Crash Courses</a></li>
+            <li><a href="#" class="footer-navlink">Photoshop</a></li>
+            <li><a href="#" class="footer-navlink">Coding</a></li>
+            <li><a href="#" class="footer-navlink">Personal Care</a></li>
+            <li><a href="#" class="footer-navlink">UI Designing</a></li>
+            <li><a href="#" class="footer-navlink">Apptitude</a></li>
+            <li><a href="#" class="footer-navlink">Interview Prep</a></li>
+            <li><a href="#" class="footer-navlink">Resume Building</a></li>
+            <li><a href="#" class="footer-navlink">Kinder garden</a></li>
+            <li><a href="#" class="footer-navlink">React</a></li>
+            <li><a href="#" class="footer-navlink">Data Science</a></li>
+            <li><a href="#" class="footer-navlink">Data Analyst</a></li>
+          </ul>
+        </section>
+
+        <section class="footer-navigation-box">
+          <h3 class="t1-palered border-palered">Navigation</h3>
+          <ul class="footer-navbar list-style-type-none">
+            <li><a href="#" class="footer-navlink">Home</a></li>
+            <li><a href="#" class="footer-navlink">Sign In</a></li>
+            <li><a href="#" class="footer-navlink">Sign Up</a></li>
+            <li><a href="#" class="footer-navlink">Terms &amp; Conditions </a></li>
+            <li><a href="#" class="footer-navlink">FAQ</a></li>
+            <li><a href="#" class="footer-navlink">Help</a></li>
+          </ul>
+        </section>
+        <form id="formConfigPreferences" class="footer-config-box">
+          <div class="text-footer">
+            <label for="txtConfigCountry" class="t1-palered">COUNTRY</label>
+            <select id="txtConfigCountry">
+              <option>INDIA</option>
+              <option>USA</option>
+              <option>UK</option>
+              <option>CHINA</option>
+              <option>JAPAN</option>
+              <option>AUSTRALIA</option>
+            </select>
+          </div>
+          <div class="text-footer">
+            <label for="txtConfigLanguage" class="t1-palered">LANGUAGE</label>
+            <select id="txtConfigLanguage">
+              <option>English(IN)</option>
+              <option>English(UK)</option>
+              <option>Chinese</option>
+              <option>Korean</option>
+              <option>French</option>
+              <option>Japanese</option>
+            </select>
+          </div>
+          <div class="text-footer">
+            <label for="txtConfigCurrency" class="t1-palered">CURRENCY</label>
+            <select id="txtConfigCurrency">
+              <option>Indian INR Rupees</option>
+              <option>USA USD</option>
+              <option>France Euro</option>
+              <option>Chinese Yuan</option>
+              <option>Australian AUD</option>
+            </select>
+          </div>
+        </form>
+      </div>
+
+      <section class="footer-copyright-box">
+        <h6>Copyright &copy; 2020 NISECOMP. All Rights Reserved. Designed & Coded by Shubham Raj.</h6>
+        <div class="social-networks">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g fa-2x"></i></a>
+        </div>
+      </section>
+    </footer>
+
+  </body>
+
+</html>
