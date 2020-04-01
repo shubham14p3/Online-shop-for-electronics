@@ -12,13 +12,50 @@ The project is to build for the HTML & CSS Capstone Project is based on an onlin
 
 ![screenshot](./images/HomepageCategory1.PNG)
 
+#Search Bar in Mobile View
+
+![screenshot](./images/Searcr.PNG)
+
+#Various Products Breakpoints
+
+#4 Grid View
+
+![screenshot](./images/product1.PNG)
+
+#3 Grid View
+
+![screenshot](./images/3Div.PNG)
+
+#2 Grid View
+
+![screenshot](./images/2div.PNG)
+
+
 #Footer
 
 ![screenshot](./images/footer1.PNG)
 
 #SearchPage
 
+![screenshot](./images/Searchpage1.PNG)
 ![screenshot](./images/search.PNG)
+
+#Products
+1. Product 1 - Data Science
+
+![screenshot](./images/product1.PNG)
+
+2. Product 2 - React
+
+![screenshot](./images/product2.PNG)
+
+3. Product 3 - Interview Preperation
+
+![screenshot](./images/product3.PNG)
+
+4. Product 4 - Ruby
+
+![screenshot](./images/product4.PNG)
 
 Additional description about the project and its features.
 
