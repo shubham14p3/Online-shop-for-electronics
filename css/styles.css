@@ -708,7 +708,7 @@ p {
 }
 
 @media (max-width: 320px) {
-	.p-sm-1rem {
+  .p-sm-1rem {
     padding: 1rem;
   }
 
@@ -780,7 +780,7 @@ p {
     columns: 1;
   }
 
-  .product-md-box-1
+  .product-md-box-1,
   .product-md-box-2,
   .product-lg-box,
   .banner-title,
@@ -870,6 +870,7 @@ p {
     padding: 1rem;
   }
 }
+
 @media (min-width: 320px) and (max-width: 769px) {
   .p-sm-1rem {
     padding: 1rem;
@@ -942,7 +943,6 @@ p {
   .two-column-list {
     columns: 1;
   }
-
 
   .product-md-box-2,
   .product-lg-box,
