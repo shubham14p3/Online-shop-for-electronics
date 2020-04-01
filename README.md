@@ -2,7 +2,7 @@
 
 Title :- N.I.S.E. COMP.
 
-The project is to build for the HTML & CSS Capstone Project is based on an online shop for electronics. But I have  personalised the content, i.e., instead of a shop of electronics I have created an studying website "N.I.S.E. Comp". It is an website where contents can be bought through digital means, and knowledge can be shared digitally.
+The project is to build for the HTML & CSS Capstone Project which is based on an online shop. But I have personalised the content, i.e., instead of a shop of electronics I have created a study website "N.I.S.E. Comp". It is an website where contents can be bought through digital means, and knowledge can be shared digitally.
 
 #Homepage
 
@@ -77,9 +77,10 @@ The minimum requirements:
 - the main page (search page), with a link to the results page
 - the search results page
 
-Each of these pages have 2 different version for screen sizes:
-- Mobile: up to 768px
-- Tablet & Desktop: from 768px
+Each of these pages have 3 different version for screen sizes:
+- Mobile
+- Tablet
+- Desktop
 
 Guidelines that were followed for the given design, including:
 - Colors
