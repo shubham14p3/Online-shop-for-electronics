@@ -1,4 +1,4 @@
-# Online-shop-for-electronics (Capstone Project)
+# Online-shop-for-electronics
 
 Title :- N.I.S.E. COMP.
 
@@ -61,8 +61,8 @@ Additional description about the project and its features.
 
 ## Built With
 
-- ATOM,
-- HTML,
+- ATOM
+- HTML
 - CSS
 - Bootstrap
 
@@ -107,6 +107,12 @@ The overall page contains the following sections:
 
 - Github: [@shubham14p3](https://github.com/shubham14p3)
 - Linkedin: [shubham14p3](https://linkedin.com/shubham14p3)
+
+## Future Update
+
+- More HTML5 feature will be added.
+- Needs re-desigining of the frontend.
+- More breakup points will be added with bootstrap.
 
 ## 🤝 Contributing
 
